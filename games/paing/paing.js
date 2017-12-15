@@ -12,10 +12,10 @@ var fcc;
 var consumer;
 
 function preload() {
-  munro = loadFont("assets/fonts/Munro.ttf");
-  pai = loadImage("assets/images/ajitpai.png");
-  fcc = loadImage("assets/images/FCCpaddle.png");
-  consumer = loadImage("assets/images/Consumerpaddle.png");
+  munro = loadFont("../../assets/fonts/Munro.ttf");
+  pai = loadImage("../../assets/images/ajitpai.png");
+  fcc = loadImage("../../assets/images/FCCpaddle.png");
+  consumer = loadImage("../../assets/images/Consumerpaddle.png");
 }
 
 function setup() {

@@ -343,7 +343,10 @@
             }
         }
         if (gamescreen == 2) {
-            if (mouseY >= 750 && mouseY <= 785 && mouseX >= 25 && mouseX <= 150) {
+          console.log(((windowHeight / 1.1) - 12.5));
+          console.log(mouseY);
+
+            if (mouseY >= ((windowHeight / 1.1) - 12.5) && mouseY <= ((windowHeight / 1.1) + 12.5) && mouseX >= 25 && mouseX <= 175 ) {
                 pokesimulator1.hp = pokesimulator1.hp - Math.floor(random(0, rand.power1)); //attack for first pokemon
 
                 rand.hp = rand.hp - Math.floor(random(0, pokesimulator1.power1)); //attack for the second pokemon

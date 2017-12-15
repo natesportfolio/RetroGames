@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgba(21,21,21,1);
+	font-family: 'Press Start 2P', cursive;
+
+}
+.nav-height {
+height: 65px;
+
+}
+#logo{
+	width: 50px;
+}
+
+#list-font {
+font-size: 20px;
+text-decoration: none;
+font-family: 'Press Start 2P';
+}
+.nav-height a {
+text-decoration: none;
+color: rgb(0,0,0);
+}
+nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: rgba(213,0,0,1);
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+	margin-bottom: 25px;
+}
+nav>ul {
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	list-style-type: none;
+	align-items: center;
+}
+nav>ul>a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav>ul>a:hover, nav>ul>a:active {
+	background-color: rgba(150,150,150,0.8);
+}
+#first img{
+padding-top: 150px;
+}
+#second img{
+	padding: 200px;
+	align-content: center;
+}
+#bg-img {
+	width: 100%;
+	width: 100vw;
+	height: 100%;
+	height: 100vh;
+	position: fixed;
+	background-color: rgba(0,0,0,1);
+	top: 0;
+	z-index: -1;
+	background-color:rgba(21,21,21,1);
+	background-size: cover;
+}
+.panel {
+	height: 700px;
+	padding: 150px; color: rgba(213,0,0,.6);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(255,255,255,0.9);
+}
+.inner-panel {
+	width: 85%;
+	min-width: 315px;
+	max-width: 750px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.inner-panel > * {
+	max-width: 250px;
+}
+#third > .inner-panel > {
+	min-width: 100%;
+}
+h1 {
+	font-family: 'Press Start 2P', cursive;
+}
+img {
+	max-width: 700px;
+}
+
+#masonry {
+	display: block;
+	column-count: 3;
+}
+
+#masonry>a {
+		display: inline-block;
+		width: 100%;
+		margin: 5px;
+		min-width: 0;
+}
+#masonry>a>img {
+	width: 100%;
+}#forth img{
+		padding-top: 100px;
+		text-align: center;
+		align-content: center;
+
+	}
+@media screen and (max-width: 803px) {
+	#third {
+		height: 600px;
+	}
+	#third > .inner-panel {
+		height: 100%;
+		flex-direction: column;
+		align-items:
+		justify-content: space-around;
+	}
+
+	#masonry {
+	display: block;
+	column-count: 2;
+	column-width: 39%;
+	column-gap: 1%;
+	}
+	@media screen and (max-width: 590px){
+		#masonry {
+
+
+		column-count: 1;
+		}
+	}
+
+	}

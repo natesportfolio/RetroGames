@@ -11,7 +11,7 @@ var playing = false;
 var twoplayer = false;
 
 function preload() {
-  munro = loadFont("assets/fonts/Munro.ttf");
+  munro = loadFont("../../assets/fonts/Munro.ttf");
 }
 
 function setup() {
