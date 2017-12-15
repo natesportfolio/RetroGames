@@ -4,10 +4,10 @@ var img3;
 var img4;
 
 function preload() {
-  img1 = loadImage("../games/images/naklejka-space-invaders.jpg");
-  img2 = loadImage("../games/images/alien.png");
-  img3 = loadImage("../games/images/ship.png");
-  img4 = loadImage("../games/images/shot.png");
+  img1 = loadImage("../assets/images/naklejka-space-invaders.jpg");
+  img2 = loadImage("../assets/images/alien.png");
+  img3 = loadImage("../assets/images/ship.png");
+  img4 = loadImage("../assets/images/shot.png");
 }
 
 function Aliens(xpos,ypos,width,height){
