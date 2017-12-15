@@ -57,10 +57,6 @@ nav>ul>a:hover, nav>ul>a:active {
 #first img{
 padding-top: 150px;
 }
-#second img{
-	padding: 200px;
-	align-content: center;
-}
 #bg-img {
 	width: 100%;
 	width: 100vw;
@@ -117,7 +113,6 @@ img {
 #masonry>a>img {
 	width: 100%;
 }#forth img{
-		padding-top: 100px;
 		text-align: center;
 		align-content: center;
 
